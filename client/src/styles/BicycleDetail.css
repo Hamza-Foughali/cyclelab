@@ -1,0 +1,33 @@
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #444;
+}
+
+.bicycle-detail {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.bicycle-detail:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bicycle-detail img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.bicycle-detail p {
+  margin: 10px 0;
+  color: #555;
+}

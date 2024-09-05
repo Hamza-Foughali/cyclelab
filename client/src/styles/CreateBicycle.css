@@ -1,0 +1,64 @@
+.create-bicycle-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.create-bicycle-form input,
+.create-bicycle-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.create-bicycle-form input:focus,
+.create-bicycle-form textarea:focus {
+  border-color: #00fff7;
+  outline: none;
+}
+
+.create-bicycle-form button {
+  padding: 12px;
+  font-size: 18px;
+  background-color: #1f6960;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.create-bicycle-form button:hover {
+  background-color: #00b395;
+  transform: translateY(-2px);
+}
+
+.create-bicycle-form button:active {
+  background-color: #00948f;
+  transform: translateY(0);
+}
+
+@media (max-width: 500px) {
+  .create-bicycle-form {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .create-bicycle-form input,
+  .create-bicycle-form textarea {
+    font-size: 14px;
+  }
+
+  .create-bicycle-form button {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,25 @@
+.delete-bicycle-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+.delete-bicycle-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.delete-bicycle-container button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-bicycle-container button:hover {
+  background-color: #c82333;
+}
